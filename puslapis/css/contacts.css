@@ -1,0 +1,72 @@
+.container-right iframe {
+    border-radius:0px 20px 20px 0px;
+}
+
+.contacts-icon {
+display:flex;
+position:relative;
+left:10%;
+align-items: center;
+    
+}
+
+.contacts-icon img {
+    filter: invert(79%) sepia(50%) saturate(515%) hue-rotate(335deg) brightness(103%) contrast(101%);
+}
+
+.contacts-icon p {
+    padding-left:10px;
+    line-height:20%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+.form-container {
+    display:flex;
+    width:90%;
+    justify-content: center;
+}
+
+form {
+    width:80%;
+    margin:auto;
+    
+}
+
+input {
+    width:100%;
+    padding:0.5rem;
+    margin:0.5rem;
+    border-radius:5px;
+    border-width:0px;
+    background-color:#00000010;
+    font-weight:600;
+    
+    }
+
+label {
+    padding:1rem;
+}
+
+input[type=submit] {
+    background-color:#2ecc71;
+    padding:1rem 0rem;
+}
+textarea {
+    width:100%;
+    padding:0.5rem;
+    margin:0.5rem;
+    border-radius:5px;
+    border-width:0px;
+    background-color:#00000010;
+    font-weight:600;
+}
+
+.container-left {
+    overflow-x:hidden;
+    height:100%;
+}
+
+h2 {
+    padding-top:1.5%;
+}

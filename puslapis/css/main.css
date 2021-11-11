@@ -1,0 +1,174 @@
+* {
+    font-family: 'Raleway', sans-serif;
+
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+ul {
+    display:flex;
+    height:80px;
+    list-style:none;
+    position:relative;
+    
+}
+
+h1 {
+    font-family: 'Ephesis', cursive;
+    font-size:3rem;
+    font-weight:400;
+    text-shadow:0px 0px 10px #00000050;
+}
+
+h2 {
+    padding:2rem;
+    font-weight:400;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-size:2rem;
+    /* text-transform:uppercase; */
+    color:#111;
+}
+
+hr {
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p {
+    padding:1rem 2rem;
+    line-height:150%;
+}
+
+.header-bar {
+    display:flex;
+    width:70vw;
+    /* background-color:rgb(179,57,87); */
+}
+
+
+.logo {
+    color: #fff;
+    padding:1em 2em;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:55%;
+}
+
+.logo h1 {
+    
+    width:15vw;
+    min-width:10vw;
+    
+}
+
+.menu {
+    width:45%;
+}
+
+.links-list a {
+    /* background-color:rgb(179,57,87); */
+    color: #fff;
+    text-decoration: none;
+    padding:0.5em 0em;
+    height:80px;
+    font-weight:600;
+}
+
+.links-list a:hover {
+    /* background-color:rgb(66,28,40); */
+    color:#fff;
+    height:80px;
+}
+
+.links-list {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.container-outside {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color:white;
+    width:70vw;
+    height:70vh;
+    border-radius:20px;
+    display:flex;
+    box-shadow:0 0 50px #00000040;
+}
+
+.container-left {
+    padding-top:3%;
+    width:55%;
+    height:90%;
+    overflow-y:scroll;
+}
+
+.container-right {
+    width:45%;
+    height:100%;
+    border-radius:0px 20px 20px 0px;
+    background-size:cover;
+    background-image: url('../img/main-bg.jpeg');
+}
+
+.footer-container {
+    width:70vw;
+    padding-top:1vh;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.menu-name a {
+    text-decoration: none;
+    transition: all .3s ease-out;
+    border-bottom:solid transparent 5px;
+}
+.slideris {
+    position: absolute;
+    display:block;
+    left: 0;
+    top:90%;
+    height: 2px;
+    background-color: #fff;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+.menu-linkas{
+    position:relative;
+    transition: all 0.3s ease-out;
+}
+.menu-linkas:hover .slideris {
+    width: 100%;
+}
+
+.menu-linkas p {
+    padding:0px;
+}
